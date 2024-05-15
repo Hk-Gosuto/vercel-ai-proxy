@@ -1,8 +1,18 @@
-# Vercel Google Gemini API Proxy
+# Vercel AI API Proxy
 
-Gemini API proxy based on vercel routes
+AI API proxy based on vercel routes
 
-## Installing Vercel CLI
+## Support
+
+- openai
+- gemini
+- groq
+- claude
+- cohere
+
+## How to deploy
+
+### Installing Vercel CLI
 
 To download and install Vercel CLI, run the following command:
 
@@ -10,16 +20,38 @@ To download and install Vercel CLI, run the following command:
 pnpm i -g vercel
 ```
 
-## Login Vercel
+### Login Vercel
 
 ```
 vercel login
 ```
 
-## Publish
+### Publish
 
 Publish to Vercel
 
 ```
 vercel --prod -y
+```
+
+## How to use
+
+### Configure proxy address
+
+```
+# openai
+https://your_domian/openai/
+
+# gemini
+https://your_domian/gemini/
+
+# groq
+https://your_domian/groq/
+
+# claude
+https://your_domian/claude/
+
+# cohere
+https://your_domian/cohere/
+
 ```
