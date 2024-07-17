@@ -55,3 +55,7 @@ https://your_domian/claude/
 https://your_domian/cohere/
 
 ```
+
+## Vercel Region List
+
+https://vercel.com/docs/edge-network/regions#region-list

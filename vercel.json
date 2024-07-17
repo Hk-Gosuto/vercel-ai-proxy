@@ -24,5 +24,8 @@
             "src": "/cohere/v1/(.*)",
             "dest": "https://api.cohere.ai/v1/$1"
         }
+    ],
+    "regions": [
+        "hnd1"
     ]
 }
