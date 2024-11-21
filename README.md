@@ -9,6 +9,7 @@ AI API proxy based on vercel routes
 - groq
 - claude
 - cohere
+- xai
 
 ## How to deploy
 
@@ -53,6 +54,9 @@ https://your_domian/claude/
 
 # cohere
 https://your_domian/cohere/
+
+# xai
+https://your_domian/xai/
 
 ```
 

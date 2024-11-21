@@ -23,6 +23,10 @@
         {
             "src": "/cohere/v1/(.*)",
             "dest": "https://api.cohere.ai/v1/$1"
+        },
+        {
+            "src": "/xai/v1/(.*)",
+            "dest": "https://api.x.ai/v1/$1"
         }
     ],
     "regions": [
